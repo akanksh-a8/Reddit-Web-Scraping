@@ -1,0 +1,1 @@
+A sentiment analysis project using Reddit data to classify the sentiment of user comments as positive, negative, or neutral. This project uses machine learning techniques to train a model and deploys it with a Flask web application.
