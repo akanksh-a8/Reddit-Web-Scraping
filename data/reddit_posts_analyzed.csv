@@ -1,0 +1,239 @@
+Title,Selftext,Sentiment
+Sunday Daily Thread: What's everyone working on this week?,"# Weekly Thread: What's Everyone Working On This Week? 🛠️
+
+Hello /r/Python! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!
+
+## How it Works:
+
+1. **Show & Tell**: Share your current projects, completed works, or future ideas.
+2. **Discuss**: Get feedback, find collaborators, or just chat about your project.
+3. **Inspire**: Your project might inspire someone else, just as you might get inspired here.
+
+## Guidelines:
+
+* Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.
+* Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.
+
+## Example Shares:
+
+1. **Machine Learning Model**: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!
+2. **Web Scraping**: Built a script to scrape and analyze news articles. It's helped me understand media bias better.
+3. **Automation**: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!
+
+Let's build and grow together! Share your journey and learn from others. Happy coding! 🌟",Positive
+Monday Daily Thread: Project ideas!,"# Weekly Thread: Project Ideas 💡
+
+Welcome to our weekly Project Ideas thread! Whether you're a newbie looking for a first project or an expert seeking a new challenge, this is the place for you.
+
+## How it Works:
+
+1. **Suggest a Project**: Comment your project idea—be it beginner-friendly or advanced.
+2. **Build & Share**: If you complete a project, reply to the original comment, share your experience, and attach your source code.
+3. **Explore**: Looking for ideas? Check out Al Sweigart's [""The Big Book of Small Python Projects""](https://www.amazon.com/Big-Book-Small-Python-Programming/dp/1718501242) for inspiration.
+
+## Guidelines:
+
+* Clearly state the difficulty level.
+* Provide a brief description and, if possible, outline the tech stack.
+* Feel free to link to tutorials or resources that might help.
+
+# Example Submissions:
+
+## Project Idea: Chatbot
+
+**Difficulty**: Intermediate
+
+**Tech Stack**: Python, NLP, Flask/FastAPI/Litestar 
+
+**Description**: Create a chatbot that can answer FAQs for a website.
+
+**Resources**: [Building a Chatbot with Python](https://www.youtube.com/watch?v=a37BL0stIuM)
+
+# Project Idea: Weather Dashboard
+
+**Difficulty**: Beginner
+
+**Tech Stack**: HTML, CSS, JavaScript, API
+
+**Description**: Build a dashboard that displays real-time weather information using a weather API.
+
+**Resources**: [Weather API Tutorial](https://www.youtube.com/watch?v=9P5MY_2i7K8)
+
+## Project Idea: File Organizer
+
+**Difficulty**: Beginner
+
+**Tech Stack**: Python, File I/O
+
+**Description**: Create a script that organizes files in a directory into sub-folders based on file type.
+
+**Resources**: [Automate the Boring Stuff: Organizing Files](https://automatetheboringstuff.com/2e/chapter9/)
+
+Let's help each other grow. Happy coding! 🌟",Positive
+Let's write FizzBuzz in a functional style for no good reason,"# What My Project Does
+
+Here is something that started out as a simple joke, but has evolved into an exercise in functional programming and property testing in Python:
+
+https://hiphish.github.io/blog/2024/08/25/lets-write-fizzbuzz-in-functional-style/
+
+I have wanted to try out property testing with Hypothesis for quite a while, and this seemed a good opportunity. I hope you enjoy the read.
+
+Link to the final source code:
+
+- https://gitlab.com/HiPhish/functional-fizzbuzz
+- https://github.com/HiPhish/functional-fizzbuzz
+
+# Target Audience
+
+This is a toy project
+
+# Comparison
+
+Not sure what to compare this to",Positive
+picows: Fast websocket client and server for asyncio,"[https://github.com/tarasko/picows](https://github.com/tarasko/picows)
+
+# What My Project Does
+
+picows is a high-performance open-source python library designed for building asyncio WebSocket clients and servers. Implemented in Cython, it offers exceptional speed and efficiency, surpassing other popular WebSocket python libraries.
+
+# Target Audience
+
+Production
+
+# Comparison
+
+picows is 1.5\~2.0 faster than aiohttp and 2.5\~3.5 times faster than websockets in a simple echo test. See benchmark result on the project github page.
+
+# Distinctive features
+
+* Maximally efficient WebSocket frame parser and builder implemented in Cython
+* Re-use memory as much as possible, avoid reallocations, and avoid unnecessary Python object creations
+* Provide Cython .pxd for efficient integration of user Cythonized code with picows
+* Ability to check if a frame is the last one in the receiving buffer",Positive
+I switched from full stack to streamlit/python and it reduced my development time to 2 weeks  !,"Just 2 months ago, I was always building full stack apps that took me ages to build and rarely found any traction. 
+
+I am pretty good with python, so I was looking for a quick way to prototype my idea and validate it. 
+
+The hidden gem there was Streamlit, a python package that makes it possible to turn your scripts into apps and deploy them on the cloud. 
+
+You don’t have to worry about backend or even only limited on frontend. Your job is just to integrate the functionality. I am not associated to Streamlit anyhow, but I just wanted to show for anyone who did not know it before that it is a great way for prototyping. 🙏
+
+In my case, I have connected the OpenAI API, built out a custom python script, connected a Supabase Database and integrated it into the Streamlit front end. 
+
+It is also possible to use common packages like pandas or matplotlib to visualise results pretty easily and make them interactive. 🆙",Positive
+SpotAPI: Enjoy Spotify Playback API Without Premium!,"Hello everyone! You all loved the last post, so I’m excited to be back with more updates.
+
+I’m thrilled to introduce [**SpotAPI**](https://github.com/Aran404/SpotAPI), a Python library designed to make interacting with Spotify's APIs a breeze!
+
+**What My Project Does:**
+
+**SpotAPI** provides a Python wrapper to interact with both private and public Spotify APIs. It emulates the requests typically made through a web browser, enabling you to access Spotify’s rich set of features programmatically. **SpotAPI** uses your Spotify username and password to authenticate, allowing you to work with Spotify data right out of the box—no additional API keys required!
+
+**New Feature: Spotify Player**
+- **No Additional Requirements**: With the latest update, you can now enjoy Spotify playback directly through **SpotAPI** without needing a pesky Premium subscription.
+- **Easy Integration**: Integrate the **SpotAPI** Player into your projects with just a few lines of code, making it straightforward to add music playback to your applications.
+- **Browser-like Experience**: Replicates the playback experience of Spotify’s web player, providing a true-to-web feel while staying under the radar.
+- **Additional Features**: **SpotAPI** provides additional features even the official Web API doesn't provide!
+
+**Features:**
+- **Public API Access**: Easily retrieve and manipulate public Spotify data, including playlists, albums, and tracks.
+- **Private API Access**: Explore private Spotify endpoints to customize and enhance your application as needed.
+- **Ready to Use**: Designed for immediate integration, allowing you to accomplish tasks with just a few lines of code.
+- **No API Key Required**: Enjoy seamless usage without needing a Spotify API key. It’s straightforward and hassle-free!
+- **Browser-like Requests**: Accurately replicate the HTTP requests Spotify makes in the browser, providing a true-to-web experience while staying under the radar.
+
+**Target Audience:**
+
+**SpotAPI** is built by developers, for developers, designed for those who want to use the Spotify API without all the hassle. It’s ideal for integrating Spotify data into applications or experimenting with Spotify’s API without the need for OAuth or a Spotify Premium subscription. Whether for educational purposes or personal projects, **SpotAPI** offers a streamlined and user-friendly approach to quickly access and utilize Spotify’s data.
+
+**Comparison:**
+
+While traditional Spotify APIs require API keys and can be cumbersome to set up, **SpotAPI** simplifies this process by bypassing the need for API keys. It provides a more streamlined approach to accessing Spotify data with user authentication, making it a valuable tool for quick and efficient Spotify data handling. With its key feature being that it does not require a Spotify Premium subscription, **SpotAPI** makes accessing and enjoying Spotify’s playback features more accessible and hassle-free.
+
+**Note:** **SpotAPI** is intended solely for educational purposes and should be used responsibly. Accessing private endpoints and scraping data without proper authorization may violate Spotify's terms of service.
+
+Check out the project on [GitHub](https://github.com/Aran404/SpotAPI) to explore the new **SpotAPI** Player feature and let me know your thoughts! I’d love to hear your feedback and contributions.
+
+Feel free to ask any questions or share your experiences here. Happy coding!",Positive
+Neutrino: Secure and event-driven low-level encrypted UDP protocol,"**Neutrino** (also [Neutrino.py](http://Neutrino.py) for the initial Python implementation), is an event-driven low-level encrypted UDP protocol I developed with the goal to serve many small packets in short time. In the years of working with TCP I came to the conclusion that I would better invest all the time into doing some research. I also thought about using QUIC, but back then there were not enough implementations and QUIC is still quite complicated.
+
+Therefore I created a simple UDP-based network protocol while still providing features such as encryption and reliability. Basic Neutrino (\~ 1,700 lines of code) is always encrypted, while NeutrinoReliable (\~ 560 lines of code) inherits it and offers reliability. Reliability might be not a concern for some people, so I decided to not implement this into the basic protocol, but rather offer an extension.
+
+NeutrinoExtended inherits NeutrinoReliable but is not yet finished; it will offer a package size more than 1280 bytes (though you're free to increase it as long the total package size is below 64 KB).
+
+My future plan would be to port it to C, Rust and PHP.
+
+Project and source code can be seen here: [https://github.com/etkaar/Neutrino](https://github.com/etkaar/Neutrino)
+
+**Features**
+
+* Encryption (XChaCha20-Poly1305)
+* Reliability (correct order of packets, detection of duplicates, retransmission of lost packets)
+
+**Target Audience**
+
+* Developers
+* Beginners which want to understand from scratch how a simple UDP protocol with encryption works, since basic Neutrino only consists of about 1,700 lines of code.
+
+**Development Status**
+
+* Neutrino: Production
+* NeutrinoReliable: Production
+* NeutrinoExtended: *Not ready yet*
+
+**Demonstration**
+
+For a demonstration, just use [TestNeutrinoSimpleServer.py](http://testneutrinosimpleserver.py/) and `TestNeutrinoSimpleClient.py`:
+
+[https://github.com/etkaar/Neutrino/tree/main/source/Python/tests](https://github.com/etkaar/Neutrino/tree/main/source/Python/tests)",Positive
+No vote of non-confidence as a result of recent events,"[Here](https://discuss.python.org/t/calling-for-a-vote-of-no-confidence/61557) is the python.org discussion affirming the Steering Council's actions with respect to Tim Peters, David Mertz, and Karl Knechtel.",Negative
+Elixir notes for Pythonistas,"Since I am interested with Elixir but rarely have time for it, wrote some notes which helps to refresh my memory whenever I decide to dive back into it.
+
+Initially was for myself, but think that can be useful for other pythonistas too, so decided to share it publicly.
+
+twitter post about it: [https://twitter.com/entGriff/status/1827426935170875799](https://twitter.com/entGriff/status/1827426935170875799)  
+notes: [goga.codes/e](http://goga.codes/e)",Negative
+compgraph2txt: A tiny library for pretty-printing computation graphs,"[https://github.com/adamviola/compgraph2txt](https://github.com/adamviola/compgraph2txt)
+
+**What My Project Does:** Library for pretty-printing computation graphs (basically DAGs where each component has 0 or more inputs and outputs).
+
+e.g., image background blur pipeline
+
+    ╭──────────╮
+    │  Camera  │
+    ├──────────┤
+    │   Image ─┼─╮
+    ╰──────────╯ │ 
+    ╭────────────╯
+    │ ╭────────────────────────╮
+    │ │  Foreground Detection  │
+    │ ├────────────────────────┤
+    ╰─┼→ Image     Foreground ─┼─╮
+      │            Background ─┼───╮
+      ╰────────────────────────╯ │ │ 
+    ╭────────────────────────────╯ │
+    │ ╭────────────────────────────╯
+    │ │ ╭────────────────────────╮
+    │ │ │          Blur          │
+    │ │ ├────────────────────────┤
+    │ ╰─┼→ Image  Blurred Image ─┼─╮
+    │   ╰────────────────────────╯ │ 
+    │ ╭────────────────────────────╯
+    │ │ ╭─────────────────────╮
+    │ │ │    Image Overlay    │
+    │ │ ├─────────────────────┤
+    ╰───┼→ Foreground  Image ─┼─╮
+      ╰─┼→ Background         │ │
+        ╰─────────────────────╯ │ 
+    ╭───────────────────────────╯
+    │ ╭───────────────╮
+    │ │  Application  │
+    │ ├───────────────┤
+    ╰─┼→ Image        │
+      ╰───────────────╯
+
+**Target Audience:** Developers
+
+**Comparison:** compgraph2txt is inspired by [py-dagviz](https://github.com/ctongfei/py-dagviz). compgraph2txt is specifically designed for DAGs where each component has named inputs/outputs.
+
+[https://github.com/adamviola/compgraph2txt](https://github.com/adamviola/compgraph2txt)",Positive
